@@ -1,4 +1,4 @@
-# Course homeworks
+# Course homework
 
 > [!WARNING]
 > The course is currently a WIP! \
