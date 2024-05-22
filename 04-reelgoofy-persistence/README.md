@@ -19,6 +19,7 @@ Whatever your choice will be, document it in the `REASONING.md` file. Describe w
 #### Containerization
 
 Create a Dockerfile for building a container image for the API. Follow it up with the creation of Docker Compose file.
+- The container image should not contain any form of source code.
 
 #### Persistence
 
