@@ -2,6 +2,15 @@ name: EGG CI
 
 on:
   workflow_call:
+    inputs:
+      working-directory:
+        description: Working directory to use
+        type: string
+        default: ./
+
+defaults:
+  run:
+    working-directory: ${{ inputs.working-directory }}
 
 jobs:
   build:
