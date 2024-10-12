@@ -2,13 +2,13 @@ name: EGG CI
 on:
   workflow_call:
     inputs:
-      working-directory:
+      working_directory:
         description: Working directory to use
         type: string
         default: ./
 defaults:
   run:
-    working-directory: ${{ github.event.inputs.working-directory }}
+    working-directory: ${{ inputs.working_directory }}
 jobs:
   build:
     name: Build
