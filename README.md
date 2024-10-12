@@ -19,6 +19,19 @@ To learn more about the schedule of the these assignments, visit the [course rep
     - Create pipeline using GitHub Actions
     - Set-up basic monitoring using Prometheus and Grafana
 
+## Evalution
+
+The following table summarizes how many points can be received
+for each assignment.
+
+| Assignment            | Points |
+| :---------------------| :----: |
+| EGG                   | 7      |
+| Barbershop            | 7      |
+| ReelGoofy REST API    | 12     |
+| ReelGoofy Persistence | 12     |
+| ReelGoofy Telemetry   | 12     |
+
 ## General guidelines and submission workflow
 
 ### Workflow
