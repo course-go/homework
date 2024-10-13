@@ -62,5 +62,5 @@ gets approved, merge it and rebase the second assignment branch.
 - All solutions must comply with the Go formatter.
 - If the homework skeleton contains a continuous integration pipeline it
 must successfully pass.
-- If the assignment contains tests they also have to passed.
+- If the assignment contains tests they also have to pass.
 - If any of your solutions become public, you will be issued a penalty.
