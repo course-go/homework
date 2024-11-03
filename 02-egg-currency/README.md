@@ -24,6 +24,13 @@ code.
 
 If you are unsure about some behaviour take the tests as the source of truth.
 
+### Bonus
+
+Compare the performance of the two solutions using benchmarks.
+Provide your results and describe your observations in `BENCHMARKS.md` file.
+
+You can get up to 3 points for implementing the bonus.
+
 ## Requirements
 
 The CLI application has to support all the functionality previously
