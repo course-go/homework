@@ -6,18 +6,25 @@ To learn more about the schedule of the these assignments, visit the [course rep
 
 ## Homework assignments
 
-1. EGG [[assignment](https://github.com/course-go/egg)]
-    - Implement a grep-based CLI tool
-2. Barbershop [[assignment](https://github.com/course-go/barbershop)]
-    - Implement the Sleeping barber problem
-3. ReelGoofy: REST API & Testing [[assignment](https://github.com/course-go/reelgoofy)]
-    - Implement and test REST API for a recommendation service
-4. ReelGoofy: Containerization & Persistence [[assignment](https://github.com/course-go/homework/blob/master/04-reelgoofy-persistence/README.md)]
-    - Containerize the service using Docker
-    - Implement persistence
-5. ReelGoofy: CI/CD & Telemetry [[assignment](https://github.com/course-go/homework/blob/master/05-reelgoofy-observability/README.md)]
-    - Create pipeline using GitHub Actions
-    - Set-up basic monitoring using Prometheus and Grafana
+1. CLI tools
+    - EGG [[assignment](https://github.com/course-go/egg)]
+        - Implement a grep-based CLI tool
+2. Concurrency & Parallelism
+    - EGG Currency [[assignment](https://github.com/course-go/homework/blob/master/02-egg-currency/README.md)]
+        - Implement concurrent file processing for EGG
+    - Barbershop [[assignment](https://github.com/course-go/barbershop)]
+        - Implement the Sleeping barber problem
+3. REST API & Testing
+    - ReelGoofy: REST API & Testing [[assignment](https://github.com/course-go/reelgoofy)]
+        - Implement and test REST API for a recommendation service
+4. Containerization & Persistence
+    - ReelGoofy: Containerization & Persistence [[assignment](https://github.com/course-go/homework/blob/master/04-reelgoofy-persistence/README.md)]
+        - Containerize the service using Docker
+        - Implement persistence
+5. CI/CD & Telemetry
+    - ReelGoofy: CI/CD & Telemetry [[assignment](https://github.com/course-go/homework/blob/master/05-reelgoofy-observability/README.md)]
+        - Create pipeline using GitHub Actions
+        - Set-up basic monitoring using Prometheus and Grafana
 
 ## Evalution
 
@@ -27,6 +34,7 @@ for each assignment.
 | Assignment            | Points |
 | :---------------------| :----: |
 | EGG                   | 7      |
+| EGG Currency          | 7      |
 | Barbershop            | 7      |
 | ReelGoofy REST API    | 12     |
 | ReelGoofy Persistence | 12     |
