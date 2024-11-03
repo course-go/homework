@@ -78,8 +78,9 @@ gets approved, merge it and rebase the second assignment branch.
 
 ### Guidelines
 
-- Do not merge your pull requests until you are instructed to do so.
-- All solutions must comply with the Go formatter.
+- Do not merge your pull requests until your reviewer approves it or
+you are explicitly instructed to do so.
+- All solutions must comply with the standard Go formatter.
 - If the homework skeleton contains a continuous integration pipeline it
 must successfully pass.
 - If the assignment contains tests they also have to pass.
