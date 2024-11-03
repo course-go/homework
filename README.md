@@ -6,6 +6,13 @@ To learn more about the schedule of the these assignments, visit the [course rep
 
 ## Homework assignments
 
+All assignments are grouped by their domain or topic they exercise.
+The suggested approach, if you want to follow the course design, is to
+pick a single assignment from each topic.
+
+Be aware that some of the assignments are linked to each other. I.e. they
+build upon the solution of the previous assignment.
+
 1. CLI tools
     - EGG [[assignment](https://github.com/course-go/egg)]
         - Implement a grep-based CLI tool
