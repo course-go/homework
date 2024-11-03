@@ -19,6 +19,9 @@ right away. Instead, it should finish processing the rest of the files that did
 not encounter any problem and print their matched output in the order in which they
 were provided on the command line.
 
+There is no need to take memory requirements into account. I.e. expect the matched
+outputs to be small in size.
+
 If processing one or more files failed, the program must terminate with non-zero
 code.
 
