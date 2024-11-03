@@ -33,19 +33,24 @@ build upon the solution of the previous assignment.
         - Create pipeline using GitHub Actions
         - Set-up basic monitoring using Prometheus and Grafana
 
-## Evalution
+## Evaluation
+
+Any combination of assignments by their respective topics, as described
+in the previous paragraph, should make up 50 points in total. Some assignments
+provide bonus tasks. For these bonus tasks
+you can acquire bonus points that are equivalent to the standard points.
 
 The following table summarizes how many points can be received
-for each assignment.
+for each assignment:
 
-| Assignment            | Points |
-| :---------------------| :----: |
-| EGG                   | 7      |
-| EGG Currency          | 7      |
-| Barbershop            | 7      |
-| ReelGoofy REST API    | 12     |
-| ReelGoofy Persistence | 12     |
-| ReelGoofy Telemetry   | 12     |
+| Assignment            | Points | Bonus points |
+| :---------------------| :----: | :----------: |
+| EGG                   | 7      |      0       |
+| EGG Currency          | 7      |      3       |
+| Barbershop            | 7      |      2       |
+| ReelGoofy REST API    | 12     |      5       |
+| ReelGoofy Persistence | 12     |      0       |
+| ReelGoofy Telemetry   | 12     |      0       |
 
 ## General guidelines and submission workflow
 
