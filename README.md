@@ -49,7 +49,7 @@ for each assignment:
 | EGG Currency          | 7      |      3       |
 | Barbershop            | 7      |      2       |
 | ReelGoofy REST API    | 12     |      5       |
-| ReelGoofy Persistence | 12     |      0       |
+| ReelGoofy Persistence | 12     |      4       |
 | ReelGoofy Telemetry   | 12     |      0       |
 
 ## General guidelines and submission workflow
