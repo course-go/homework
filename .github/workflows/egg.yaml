@@ -15,12 +15,8 @@ jobs:
       run:
         working-directory: ${{ inputs.working_directory }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: 'stable'
+      - name: Setup
+        uses: ./.github/actions/setup
       - name: Build
         run: make build
   format:
@@ -30,12 +26,8 @@ jobs:
       run:
         working-directory: ${{ inputs.working_directory }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: 'stable'
+      - name: Setup
+        uses: ./.github/actions/setup
       - name: Build
         run: test -z $(gofmt -l .)
   lint:
@@ -45,12 +37,8 @@ jobs:
       run:
         working-directory: ${{ inputs.working_directory }}
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: 'stable'
+      - name: Setup
+        uses: ./.github/actions/setup
       - name: Lint
         run: go vet ./...
   test:
@@ -61,11 +49,7 @@ jobs:
         working-directory: ${{ inputs.working_directory }}
     needs: [build, format, lint]
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-      - name: Setup Go
-        uses: actions/setup-go@v5
-        with:
-          go-version: 'stable'
+      - name: Setup
+        uses: ./.github/actions/setup
       - name: Test
         run: make test
