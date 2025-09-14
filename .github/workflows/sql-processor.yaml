@@ -1,0 +1,55 @@
+---
+name: SQL Processor CI
+on:
+  workflow_call:
+    inputs:
+      working_directory:
+        description: Working directory to use
+        type: string
+        default: ./
+jobs:
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{ inputs.working_directory }}
+    steps:
+      - name: Setup
+        uses: course-go/homework/.github/actions/setup@master
+      - name: Build
+        run: make build
+  format:
+    name: Format
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{ inputs.working_directory }}
+    steps:
+      - name: Setup
+        uses: course-go/homework/.github/actions/setup@master
+      - name: Build
+        run: test -z $(gofmt -l .)
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{ inputs.working_directory }}
+    steps:
+      - name: Setup
+        uses: course-go/homework/.github/actions/setup@master
+      - name: Lint
+        run: make lint
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ${{ inputs.working_directory }}
+    needs: [build, format, lint]
+    steps:
+      - name: Setup
+        uses: course-go/homework/.github/actions/setup@master
+      - name: Test
+        run: make test
