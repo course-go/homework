@@ -16,7 +16,7 @@ jobs:
         working-directory: ${{ inputs.working_directory }}
     steps:
       - name: Setup
-        uses: ./.github/actions/setup
+        uses: course-go/homework/.github/actions/setup@master
       - name: Build
         run: make build
   format:
@@ -27,7 +27,7 @@ jobs:
         working-directory: ${{ inputs.working_directory }}
     steps:
       - name: Setup
-        uses: ./.github/actions/setup
+        uses: course-go/homework/.github/actions/setup@master
       - name: Build
         run: test -z $(gofmt -l .)
   lint:
@@ -38,7 +38,7 @@ jobs:
         working-directory: ${{ inputs.working_directory }}
     steps:
       - name: Setup
-        uses: ./.github/actions/setup
+        uses: course-go/homework/.github/actions/setup@master
       - name: Lint
         run: make lint
   test:
@@ -50,6 +50,6 @@ jobs:
     needs: [build, format, lint]
     steps:
       - name: Setup
-        uses: ./.github/actions/setup
+        uses: course-go/homework/.github/actions/setup@master
       - name: Test
         run: make test
