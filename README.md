@@ -19,6 +19,8 @@ build upon the solution of the previous assignment.
 2. Concurrency & Parallelism
     - EGG Currency [[assignment](https://github.com/course-go/homework/blob/master/02-egg-currency/README.md)]
         - Implement concurrent file processing for EGG
+    - SQL Processor [[assignment](https://github.com/course-go/sql-processor)]
+        - Implement concurrent SQL file processing service
     - Barbershop [[assignment](https://github.com/course-go/barbershop)]
         - Implement the Sleeping barber problem
 3. REST API & Testing
@@ -47,6 +49,7 @@ for each assignment:
 | :---------------------| :----: | :----------: |
 | EGG                   | 7      |      0       |
 | EGG Currency          | 7      |      3       |
+| SQL Processor         | 7      |      2       |
 | Barbershop            | 7      |      2       |
 | ReelGoofy REST API    | 12     |      5       |
 | ReelGoofy Persistence | 12     |      4       |
