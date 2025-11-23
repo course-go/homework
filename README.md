@@ -14,26 +14,26 @@ Be aware that some of the assignments are linked to each other. I.e. they
 build upon the solution of the previous assignment.
 
 1. CLI tools
-    - EGG [[assignment](https://github.com/course-go/egg)]
-        - Implement a grep-based CLI tool
+   - EGG [[assignment](https://github.com/course-go/egg)]
+     - Implement a grep-based CLI tool
 2. Concurrency & Parallelism
-    - EGG Currency [[assignment](https://github.com/course-go/homework/blob/master/02-egg-currency/README.md)]
-        - Implement concurrent file processing for EGG
-    - SQL Processor [[assignment](https://github.com/course-go/sql-processor)]
-        - Implement concurrent SQL file processing service
-    - Barbershop [[assignment](https://github.com/course-go/barbershop)]
-        - Implement the Sleeping barber problem
+   - EGG Currency [[assignment](https://github.com/course-go/homework/blob/master/02-egg-currency/README.md)]
+     - Implement concurrent file processing for EGG
+   - SQL Processor [[assignment](https://github.com/course-go/sql-processor)]
+     - Implement concurrent SQL file processing service
+   - Barbershop [[assignment](https://github.com/course-go/barbershop)]
+     - Implement the Sleeping barber problem
 3. REST API & Testing
-    - ReelGoofy: REST API & Testing [[assignment](https://github.com/course-go/reelgoofy)]
-        - Implement and test REST API for a recommendation service
+   - ReelGoofy: REST API & Testing [[assignment](https://github.com/course-go/reelgoofy)]
+     - Implement and test REST API for a recommendation service
 4. Containerization & Persistence
-    - ReelGoofy: Containerization & Persistence [[assignment](https://github.com/course-go/homework/blob/master/04-reelgoofy-persistence/README.md)]
-        - Containerize the service using Docker
-        - Implement persistence
+   - ReelGoofy: Containerization & Persistence [[assignment](https://github.com/course-go/homework/blob/master/04-reelgoofy-persistence/README.md)]
+     - Containerize the service using Docker
+     - Implement persistence
 5. CI/CD & Telemetry
-    - ReelGoofy: CI/CD & Telemetry [[assignment](https://github.com/course-go/homework/blob/master/05-reelgoofy-observability/README.md)]
-        - Create pipeline using GitHub Actions
-        - Set-up basic monitoring using Prometheus and Grafana
+   - ReelGoofy: CI/CD & Telemetry [[assignment](https://github.com/course-go/homework/blob/master/05-reelgoofy-observability/README.md)]
+     - Create pipeline using GitHub Actions
+     - Set-up basic monitoring using Prometheus and Grafana
 
 ## Evaluation
 
@@ -46,14 +46,14 @@ The following table summarizes how many points can be received
 for each assignment:
 
 | Assignment            | Points | Bonus points |
-| :---------------------| :----: | :----------: |
-| EGG                   | 7      |      0       |
-| EGG Currency          | 7      |      3       |
-| SQL Processor         | 7      |      2       |
-| Barbershop            | 7      |      2       |
-| ReelGoofy REST API    | 12     |      5       |
-| ReelGoofy Persistence | 12     |      4       |
-| ReelGoofy Telemetry   | 12     |      0       |
+| :-------------------- | :----: | :----------: |
+| EGG                   |   7    |      0       |
+| EGG Currency          |   7    |      3       |
+| SQL Processor         |   7    |      2       |
+| Barbershop            |   7    |      2       |
+| ReelGoofy REST API    |   12   |      5       |
+| ReelGoofy Persistence |   12   |      4       |
+| ReelGoofy Telemetry   |   12   |      0       |
 
 ## General guidelines and submission workflow
 
@@ -63,13 +63,13 @@ The submission flow slightly differs based on the homework type.
 Some have dedicated templates and some build upon the previous assignment.
 
 - For assignments with dedicated templates, create a new **private** repository
-using the template. Then add your tutors to the repository so they can later
-provide your with a review. Switch to your submit branch and implement your solution
-there. When you are finished, create a pull request from this submit branch to your
-main branch and assign it to you tutors.
+  using the template. Then add your tutors to the repository so they can later
+  provide your with a review. Switch to your submit branch and implement your solution
+  there. When you are finished, create a pull request from this submit branch to
+  your main branch and assign it to you tutors.
 
 - For assignments based on a previous assignment, continue with the same repository
-using a different git branch.
+  using a different git branch.
 
 One problem, you might stumble upon, is when you have two consecutive assignments
 and the first one is not yet merged to the main branch (e.g. you are waiting
@@ -82,9 +82,9 @@ gets approved, merge it and rebase the second assignment branch.
 ### Guidelines
 
 - Do not merge your pull requests until your reviewer approves it or
-you are explicitly instructed to do so.
+  you are explicitly instructed to do so.
 - All solutions must comply with the standard Go formatter.
 - If the homework skeleton contains a continuous integration pipeline it
-must successfully pass.
+  must successfully pass.
 - If the assignment contains tests they also have to pass.
 - If any of your solutions become public, you will be issued a penalty.
