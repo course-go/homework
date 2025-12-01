@@ -30,6 +30,9 @@ build upon the solution of the previous assignment.
    - ReelGoofy: Containerization & Persistence [[assignment](https://github.com/course-go/homework/blob/master/04-reelgoofy-persistence/README.md)]
      - Containerize the service using Docker
      - Implement persistence
+   - Chanoodle: Containerization & Persistence [[assignment](https://github.com/course-go/homework/blob/master/04-chanoodle-persistence/README.md)]
+     - Containerize the service using Docker
+     - Implement persistence
 5. CI/CD & Telemetry
    - ReelGoofy: CI/CD & Telemetry [[assignment](https://github.com/course-go/homework/blob/master/05-reelgoofy-observability/README.md)]
      - Create pipeline using GitHub Actions
@@ -53,6 +56,7 @@ for each assignment:
 | Barbershop            |   7    |      2       |
 | ReelGoofy REST API    |   12   |      5       |
 | ReelGoofy Persistence |   12   |      4       |
+| Chanoodle Persistence |   12   |      0       |
 | ReelGoofy Telemetry   |   12   |      0       |
 
 ## General guidelines and submission workflow

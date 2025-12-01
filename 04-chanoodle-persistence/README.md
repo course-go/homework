@@ -1,0 +1,3 @@
+# Chanoodle
+
+This homework assignment has a [dedicated repository](https://github.com/course-go/chanoodle) containing the assignment.
