@@ -17,7 +17,7 @@ build upon the solution of the previous assignment.
    - EGG [[assignment](https://github.com/course-go/egg)]
      - Implement a grep-based CLI tool
 2. Concurrency & Parallelism
-   - EGG Currency [[assignment](https://github.com/course-go/homework/blob/master/02-egg-currency/README.md)]
+   - EGG Currency [[assignment](https://github.com/course-go/homework/blob/master/02-egg-currency/README.md)] (\*)
      - Implement concurrent file processing for EGG
    - SQL Processor [[assignment](https://github.com/course-go/sql-processor)]
      - Implement concurrent SQL file processing service
@@ -27,16 +27,19 @@ build upon the solution of the previous assignment.
    - ReelGoofy: REST API & Testing [[assignment](https://github.com/course-go/reelgoofy)]
      - Implement and test REST API for a recommendation service
 4. Containerization & Persistence
-   - ReelGoofy: Containerization & Persistence [[assignment](https://github.com/course-go/homework/blob/master/04-reelgoofy-persistence/README.md)]
+   - ReelGoofy: Containerization & Persistence [[assignment](https://github.com/course-go/homework/blob/master/04-reelgoofy-persistence/README.md)] (\*)
      - Containerize the service using Docker
      - Implement persistence
    - Chanoodle: Containerization & Persistence [[assignment](https://github.com/course-go/homework/blob/master/04-chanoodle-persistence/README.md)]
      - Containerize the service using Docker
      - Implement persistence
 5. CI/CD & Telemetry
-   - ReelGoofy: CI/CD & Telemetry [[assignment](https://github.com/course-go/homework/blob/master/05-reelgoofy-observability/README.md)]
+   - ReelGoofy: CI/CD & Telemetry [[assignment](https://github.com/course-go/homework/blob/master/05-reelgoofy-observability/README.md)] (\*)
      - Create pipeline using GitHub Actions
      - Set-up basic monitoring using Prometheus and Grafana
+
+> [!WARNING]  
+> Assignments marked with (\*) build upon the solution of the previous assignment.
 
 ## Evaluation
 
