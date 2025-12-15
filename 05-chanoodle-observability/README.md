@@ -48,6 +48,10 @@ service in which you will create the required graphs. After you are done with cr
 the graphs, do not forget to export them using the JSON format and
 save them to the project.
 
+> [!IMPORTANT]
+> Please also provide screenshots of you graphs with some data.
+> This will make the reviewing process much easier for us.
+
 ##### HTTP metrics
 
 All the graphs depicted below should be based on your custom metrics
