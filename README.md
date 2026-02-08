@@ -33,12 +33,14 @@ build upon the solution of the previous assignment.
    - Chanoodle: Containerization & Persistence [[assignment](https://github.com/course-go/homework/blob/master/04-chanoodle-persistence/README.md)]
      - Containerize the service using Docker
      - Implement persistence
-5. CI/CD & Telemetry
-   - ReelGoofy: CI/CD & Telemetry [[assignment](https://github.com/course-go/homework/blob/master/05-reelgoofy-observability/README.md)] (\*)
+5. CI/CD & Observability
+   - ReelGoofy: CI/CD & Observability [[assignment](https://github.com/course-go/homework/blob/master/05-reelgoofy-observability/README.md)] (\*)
      - Create pipeline using GitHub Actions
      - Set-up basic monitoring using Prometheus and Grafana
+   - Chanoodle: Observability [[assignment](https://github.com/course-go/homework/blob/master/05-chanoodle-observability/README.md)]
+     - Set-up basic monitoring using Prometheus and Grafana
 
-> [!WARNING]  
+> [!WARNING]
 > Assignments marked with (\*) build upon the solution of the previous assignment.
 
 ## Evaluation
@@ -51,16 +53,17 @@ you can acquire bonus points that are equivalent to the standard points.
 The following table summarizes how many points can be received
 for each assignment:
 
-| Assignment            | Points | Bonus points |
-| :-------------------- | :----: | :----------: |
-| EGG                   |   7    |      0       |
-| EGG Currency          |   7    |      3       |
-| SQL Processor         |   7    |      2       |
-| Barbershop            |   7    |      2       |
-| ReelGoofy REST API    |   12   |      5       |
-| ReelGoofy Persistence |   12   |      4       |
-| Chanoodle Persistence |   12   |      0       |
-| ReelGoofy Telemetry   |   12   |      0       |
+| Assignment              | Points | Bonus points |
+| :---------------------- | :----: | :----------: |
+| EGG                     |   7    |      0       |
+| EGG Currency            |   7    |      3       |
+| SQL Processor           |   7    |      2       |
+| Barbershop              |   7    |      2       |
+| ReelGoofy REST API      |   15   |      5       |
+| ReelGoofy Persistence   |   12   |      4       |
+| Chanoodle Persistence   |   12   |      0       |
+| ReelGoofy Observability |   12   |      0       |
+| Chanoodle Observability |   9    |      0       |
 
 ## General guidelines and submission workflow
 
