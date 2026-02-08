@@ -70,24 +70,31 @@ for each assignment:
 ### Workflow
 
 The submission flow slightly differs based on the homework type.
-Some have dedicated templates and some build upon the previous assignment.
+Some have dedicated templates and some build upon the previous
+assignment - denoted by the asterisk above in the list.
 
 - For assignments with dedicated templates, create a new **private** repository
   using the template. Then add your tutors to the repository so they can later
-  provide your with a review. Switch to your submit branch and implement your solution
+  provide your with a review. Switch to a submit branch and implement your solution
   there. When you are finished, create a pull request from this submit branch to
   your main branch and assign it to you tutors.
 
 - For assignments based on a previous assignment, continue with the same repository
-  using a different git branch.
+  using a different git branch. One problem, you might stumble upon, is when you
+  have two consecutive assignments and the first one is not yet merged to
+  the main branch (e.g. you are waiting for a review for the first assignment
+  and you already want to start working on the second one). In that case, the
+  suggested way to work is that you create a git branch for the second
+  assignment from the first, not yet merged, assignment branch. After
+  your first assignment gets approved, merge it and rebase the
+  second assignment branch.
 
-One problem, you might stumble upon, is when you have two consecutive assignments
-and the first one is not yet merged to the main branch (e.g. you are waiting
-for a review for the first assignment and you already want to start
-working on the second one). In that case, the suggested way to work is that
-you create a git branch for the second assignment from the
-first, not yet merged, assignment branch. After your first assignment
-gets approved, merge it and rebase the second assignment branch.
+Regarding the tutor assignment to the pull requests, always add all the tutors
+to the repository and assign them as reviewers unless otherwise instructed.
+However, only add one tutor as the assignee, this one will be the actual reviewer.
+You will always be instructed which tutor to assign as assignee.
+Please note, that your will not be provided with a reviews unless you
+correctly assign your tutor.
 
 ### Guidelines
 
