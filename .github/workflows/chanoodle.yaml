@@ -17,6 +17,8 @@ jobs:
     steps:
       - name: Setup
         uses: course-go/homework/.github/actions/setup@master
+        with:
+          working_directory: ${{ inputs.working_directory }}
       - name: Build
         run: make build
   format:
@@ -28,7 +30,9 @@ jobs:
     steps:
       - name: Setup
         uses: course-go/homework/.github/actions/setup@master
-      - name: Build
+        with:
+          working_directory: ${{ inputs.working_directory }}
+      - name: Format
         run: make format-diff
   lint:
     name: Lint
@@ -39,6 +43,8 @@ jobs:
     steps:
       - name: Setup
         uses: course-go/homework/.github/actions/setup@master
+        with:
+          working_directory: ${{ inputs.working_directory }}
       - name: Lint
         run: make lint
   test:
@@ -51,5 +57,7 @@ jobs:
     steps:
       - name: Setup
         uses: course-go/homework/.github/actions/setup@master
+        with:
+          working_directory: ${{ inputs.working_directory }}
       - name: Test
         run: make test
