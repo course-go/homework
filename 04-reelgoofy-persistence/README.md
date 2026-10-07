@@ -69,7 +69,7 @@ really scalable. If you would like to scale the API with such cache, you will
 have to deal with some kind of cache data synchronization or invalidation.
 However, as this is a rather complex issue, you can safely ignore it in this assignment.
 Same goes for any "memory size issues", i.e. you can expect that the stored data
-is reasonably small.
+is reasonably big.
 
 You can earn up to **4 points** for implementing this bonus.
 
