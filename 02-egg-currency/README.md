@@ -10,7 +10,7 @@ concurrent processing.
 
 ### Specification
 
-The goal of this task is to make files processing concurrent. That is, whenever
+The goal of this task is to make file processing concurrent. That is, whenever
 the client provides a list of files for the _egg_ to match, your solution should
 match the files concurrently.
 
@@ -19,18 +19,18 @@ right away. Instead, it should finish processing the rest of the files that did
 not encounter any problem and print their matched output in the order in which they
 were provided on the command line.
 
-There is no need to take memory requirements into account. I.e. expect the matched
+There is no need to take memory requirements into account, i.e. expect the matched
 outputs to be small in size.
 
-If processing one or more files failed, the program must terminate with non-zero
-code.
+If processing one or more files failed, the program must terminate with a non-zero
+exit code.
 
-If you are unsure about some behaviour take the tests as the source of truth.
+If you are unsure about some behaviour, take the tests as the source of truth.
 
 ### Bonus
 
 Compare the performance of the two solutions using benchmarks.
-Provide your results and describe your observations in `BENCHMARKS.md` file.
+Provide your results and describe your observations in a `BENCHMARKS.md` file.
 
 You can get up to 3 points for implementing the bonus.
 
