@@ -1,7 +1,7 @@
 # Chanoodle: Observability
 
 [Chanoodle](https://github.com/course-go/chanoodle) is an EPG, channel and event metadata service.
-It exposes this data using REST API.
+It exposes this data using a REST API.
 
 ## Assignment
 
@@ -16,13 +16,13 @@ based on those metrics so they can be easily inspected and tracked over time.
 
 First of all, you will need your service to instrument and expose
 the Prometheus metrics. Create a new custom HTTP metrics middleware
-that tracks information about HTTP request using the [built-in metric types](https://prometheus.io/docs/concepts/metric_types/).
-To get and idea of what information about the requests you will need to track and
+that tracks information about HTTP requests using the [built-in metric types](https://prometheus.io/docs/concepts/metric_types/).
+To get an idea of what information about the requests you will need to track and
 expose, view the [Visualizations](#visualizations).
 
-Regarding the libraries, your will certainly need to import the
-[Prometheus Client library](github.com/prometheus/client_golang).
-Optionally, you can also use the [OpenTelemetry](go.opentelemetry.io/otel/)
+Regarding the libraries, you will certainly need to import the
+[Prometheus Client library](https://github.com/prometheus/client_golang).
+Optionally, you can also use [OpenTelemetry](https://pkg.go.dev/go.opentelemetry.io/otel)
 and its interfaces.
 
 > [!WARNING]
@@ -49,7 +49,7 @@ the graphs, do not forget to export them using the JSON format and
 save them to the project.
 
 > [!IMPORTANT]
-> Please also provide screenshots of you graphs with some data.
+> Please also provide screenshots of your graphs with some data.
 > This will make the reviewing process much easier for us.
 
 ##### HTTP metrics
@@ -73,6 +73,6 @@ is set-up with the showcased graphs.
 
 ## Motivation
 
-Monitoring is a necessity for real-life applications. Without them, debugging issues
+Monitoring is a necessity for real-life applications. Without monitoring, debugging issues
 in such applications is rendered basically impossible. This assignment practices
-working with one of the most commonly used monitoring signal, metrics.
+working with one of the most commonly used monitoring signals, metrics.
