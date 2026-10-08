@@ -1,10 +1,10 @@
 # ReelGoofy: CI/CD & Telemetry
 
-ReelGoofy is movie recommendation service.
+ReelGoofy is a movie recommendation service.
 
 ## Assignment
 
-ReelGoofy's API was implemented in the third homework. We followed up on it in the fourth assignment, where we containerized it and made it persist its data. We will finish this application with setting up a simple CI/CD pipeline and instrumenting it with metrics.
+ReelGoofy's API was implemented in the third homework. We followed up on it in the fourth assignment, where we containerized it and made it persist its data. We will finish this application by setting up a simple CI/CD pipeline and instrumenting it with metrics.
 
 ### Specification
 
@@ -30,11 +30,11 @@ Create configurations for both Prometheus and Grafana (the `scrape_configs` and 
 
 Instrument the ReelGoofy application with custom metrics. The application must expose metrics for the number of HTTP requests on specific endpoints, their response times, and response codes. For additional metrics, the choice is up to you.
 
-Lastly, create a dashboard for the ReelGoofy service and create at least six visualizations (graphs). Do not forget to persist the newly created graphs, either by exporting it or by mounting a volume with the Grafana configuration files to the repository. Either way, is should be stored in a `data` directory.
+Lastly, create a dashboard for the ReelGoofy service and create at least six visualizations (graphs). Do not forget to persist the newly created graphs, either by exporting them or by mounting a volume with the Grafana configuration files to the repository. Either way, they should be stored in a `data` directory.
 
 ## Requirements
 
-The application has a functioning CI/CD pipeline that lint, formats, build, tests, and containerizes it. The application is also properly instrumented and a monitoring is set-up using Grafana and the created dashboard.
+The application has a functioning CI/CD pipeline that lints, formats, builds, tests, and containerizes it. The application is also properly instrumented and monitoring is set up using Grafana and the created dashboard.
 
 ## Motivation
 

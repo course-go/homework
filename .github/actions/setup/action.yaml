@@ -1,13 +1,19 @@
 ---
 name: 'Setup'
 description: 'Setup checkouts repository and setups Go'
+inputs:
+  working_directory:
+    description: Directory containing the go.mod file of the Go module
+    required: false
+    default: .
 runs:
   using: "composite"
   steps:
     - name: Checkout
-      uses: actions/checkout@v4
+      uses: actions/checkout@v7
 
     - name: Setup Go
-      uses: actions/setup-go@v5
+      uses: actions/setup-go@v7
       with:
-        go-version: 'stable'
+        go-version-file: ${{ inputs.working_directory }}/go.mod
+        cache-dependency-path: ${{ inputs.working_directory }}/go.sum

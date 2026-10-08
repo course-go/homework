@@ -2,15 +2,15 @@
 
 This repository maps the course homework assignments.
 
-To learn more about the schedule of the these assignments, visit the [course repository](https://github.com/course-go/course).
+To learn more about the schedule of these assignments, visit the [course repository](https://github.com/course-go/course).
 
 ## Homework assignments
 
-All assignments are grouped by their domain or topic they exercise.
+All assignments are grouped by the domain or topic they exercise.
 The suggested approach, if you want to follow the course design, is to
 pick a single assignment from each topic.
 
-Be aware that some of the assignments are linked to each other. I.e. they
+Be aware that some of the assignments are linked to each other, i.e. they
 build upon the solution of the previous assignment.
 
 1. CLI tools
@@ -75,12 +75,12 @@ assignment - denoted by the asterisk above in the list.
 
 - For assignments with dedicated templates, create a new **private** repository
   using the template. Then add your tutors to the repository so they can later
-  provide your with a review. Switch to a submit branch and implement your solution
+  provide you with a review. Switch to a submit branch and implement your solution
   there. When you are finished, create a pull request from this submit branch to
-  your main branch and assign it to you tutors.
+  your main branch and assign it to your tutors.
 
 - For assignments based on a previous assignment, continue with the same repository
-  using a different git branch. One problem, you might stumble upon, is when you
+  using a different git branch. One problem you might stumble upon is when you
   have two consecutive assignments and the first one is not yet merged to
   the main branch (e.g. you are waiting for a review for the first assignment
   and you already want to start working on the second one). In that case, the
@@ -93,15 +93,15 @@ Regarding the tutor assignment to the pull requests, always add all the tutors
 to the repository and assign them as reviewers unless otherwise instructed.
 However, only add one tutor as the assignee, this one will be the actual reviewer.
 You will always be instructed which tutor to assign as assignee.
-Please note, that your will not be provided with a reviews unless you
+Please note that you will not be provided with a review unless you
 correctly assign your tutor.
 
 ### Guidelines
 
-- Do not merge your pull requests until your reviewer approves it or
+- Do not merge your pull requests until your reviewer approves them or
   you are explicitly instructed to do so.
 - All solutions must comply with the standard Go formatter.
-- If the homework skeleton contains a continuous integration pipeline it
+- If the homework skeleton contains a continuous integration pipeline, it
   must successfully pass.
-- If the assignment contains tests they also have to pass.
+- If the assignment contains tests, they also have to pass.
 - If any of your solutions become public, you will be issued a penalty.
